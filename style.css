@@ -1,12 +1,43 @@
+#color-palette{
+    height: 50px;
+    width: 1000px;
+}
+.black{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid black;
+}
 .red{
     background-color: red;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid black;
+}
+.blue{
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid black;
 }
 .green{
     background-color: green;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid black;
 }
-.yellow{
-    background-color: yellow;
+#pixel-board{
+    background-color: white;
+    width: 226px;
 }
-.gray{
-    background-color: gray;
+.pixel{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid black;
 }
