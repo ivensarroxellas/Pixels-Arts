@@ -21,6 +21,8 @@ window.onload = function(){
     document.getElementById("segundaCor").classList.remove("selected")
     document.getElementById("terceiraCor").classList.remove("selected")
     document.getElementById("quartaCor").classList.remove("selected")
+
+    
 }
 //SELECIONA COR E DESATIVA AS OUTRAS
 let primeiro = document.getElementById("primeiraCor");

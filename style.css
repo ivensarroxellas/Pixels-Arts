@@ -1,6 +1,6 @@
 #color-palette{
     height: 50px;
-    width: 1000px;
+    width: 500px;
 }
 .black{
     background-color: black;
@@ -29,6 +29,12 @@
     height: 40px;
     display: inline-block;
     border: 1px solid black;
+}
+#white{
+    background-color: white;
+    display: inline-block;
+    border: 1px solid black;
+    margin-bottom: 10px;
 }
 #pixel-board{
     background-color: white;
