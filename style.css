@@ -30,7 +30,7 @@
     display: inline-block;
     border: 1px solid black;
 }
-#white{
+.white{
     background-color: white;
     display: inline-block;
     border: 1px solid black;

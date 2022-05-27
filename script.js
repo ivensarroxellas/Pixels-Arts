@@ -53,6 +53,13 @@ function colorChangeGreen() {
     segundo.classList.remove("selected") 
     quarto.classList.add("selected")
 }
+function colorReset() {
+    
+    for (let index = 0; index < tabelaPixel.length; index +=1){
+        let reset = document.querySelectorAll(".pixel")[index]
+        reset.style.backgroundColor = "white";
+    }
+}   
 
 function colorThePixel(event) {
     let elementoClicado = event.target;
